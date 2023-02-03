@@ -1,0 +1,77 @@
+.container{
+    border: 1px solid silver;
+    border-radius: 15px;
+    padding: 15px 12px;
+    box-shadow: 0 2px .4em rgb(110, 110, 110);
+    margin-top: 50px;
+}
+.areaContainer{
+    margin-bottom: 0;
+}
+.itemContainer{
+    display: flex;
+    margin: 15px;
+    justify-content: space-between;
+    
+}
+.itemContainer:nth-last-child(n+2){
+    border-bottom: 1px solid silver;
+}
+.item{
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+.item span{
+    width: 50%;
+    text-align: start;
+    padding-right: 20px;
+}
+.item:nth-child(1){
+    font-weight: bold;
+}
+.item:nth-child(2){
+    display: flex;
+    flex-grow: 1;
+}
+.itemValue{
+    padding-left: 20px;
+    word-break:break-all;
+    flex-grow: 1;
+}
+.button{
+    width: 26px;
+    height: 26px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+    
+}
+.edit{
+    background-image: url('./../assets/img/edit.png');
+    background-size: contain;
+}
+.delete{
+    background-image: url('./../assets/img/trash.png');
+    background-size: contain;
+}
+.swipe {
+    background-image: url('./../assets/img/swipe-up.png');
+    background-size: contain;
+}
+.areaContainer{
+    display: flex;
+    flex: 1 1 auto;
+}
+.area{
+    overflow: hidden;
+    margin-right: 15px;
+}
+.btn{
+    margin: 10px;
+}
+.save-bth{
+    margin: 0;
+}
